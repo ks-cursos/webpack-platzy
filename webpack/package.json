@@ -1,0 +1,22 @@
+{
+  "name": "curso-webpack",
+  "version": "1.0.0",
+  "description": "Caos de uso",
+  "main": "index.js",
+  "scripts": {
+    "env": "env",
+    "test": "Hola Mundo",
+    "build": "webpack index.js --output bundle.js --mode development",
+    "build:local":"webpack",
+    "pretest": "npm run lint"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "FReddy Castillo7",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "4.27.0",
+    "webpack-cli": "3.1.2"
+  }
+}
