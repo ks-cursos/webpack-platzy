@@ -1,6 +1,8 @@
-module.exports={
+const config={
+    mode: 'development',
     entry: './index.js',
     output: {
-        filename:'./bundle.js'
+        filename:'../bundle.js'
     } 
 }
+module.exports=config;
