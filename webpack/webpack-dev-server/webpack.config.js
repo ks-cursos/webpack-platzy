@@ -4,8 +4,11 @@ const config={
     entry: path.resolve(__dirname,'index.js'),
     output: {
         path: path.resolve(__dirname,'dist'), 
-        filename:'../bundle.js'
+        filename:'./bundle.js'
     } ,
+    devServer:{
+        port:9000
+    },
     module:{
         rules:[
             //Aqui van los louders
