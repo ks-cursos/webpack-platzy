@@ -81,20 +81,42 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "./index.js");
+/******/ 	return __webpack_require__(__webpack_require__.s = "./babel-loader/index.js");
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "./index.js":
-/*!******************!*\
-  !*** ./index.js ***!
-  \******************/
+/***/ "./babel-loader/estilo.css":
+/*!*********************************!*\
+  !*** ./babel-loader/estilo.css ***!
+  \*********************************/
 /*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function(module, exports) {
+
+eval("// removed by extract-text-webpack-plugin\n\n//# sourceURL=webpack:///./babel-loader/estilo.css?");
+
+/***/ }),
+
+/***/ "./babel-loader/index.js":
+/*!*******************************!*\
+  !*** ./babel-loader/index.js ***!
+  \*******************************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("\n\n//console.log(\"Prueba\");\nconsole.log(\"Prueba webpack confi\");\n\n//# sourceURL=webpack:///./index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _estilo_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./estilo.css */ \"./babel-loader/estilo.css\");\n/* harmony import */ var _estilo_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_estilo_css__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _messaje_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./messaje.js */ \"./babel-loader/messaje.js\");\n/* harmony import */ var _messaje_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_messaje_js__WEBPACK_IMPORTED_MODULE_1__);\n//console.log(\"Prueba\");\n\n\ndocument.write(_messaje_js__WEBPACK_IMPORTED_MODULE_1__[\"firstMessage\"]);\nconsole.log(\"Prueba webpack confi external\");\n\n//# sourceURL=webpack:///./babel-loader/index.js?");
+
+/***/ }),
+
+/***/ "./babel-loader/messaje.js":
+/*!*********************************!*\
+  !*** ./babel-loader/messaje.js ***!
+  \*********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("module.exports = {\n  firstMessage: 'Hola mundo desde js'\n};\n\n//# sourceURL=webpack:///./babel-loader/messaje.js?");
 
 /***/ })
 
