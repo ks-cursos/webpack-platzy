@@ -21,6 +21,15 @@ const config={
                     }
                 }
             },
+            {
+                test:/\.(jpg|png|gif)$/,
+                use:{
+                    loader:'url-loader',
+                    options:{
+                        limit:200000
+                    }
+                }
+            },
             //Aqui van los louders
             {
                 test:/\.css$/,
